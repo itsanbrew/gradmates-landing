@@ -4,10 +4,10 @@ export default function ProductDescription() {
       <div className="text-center mb-12 sm:mb-16 overflow-visible">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-3 leading-[1.4] pb-6 overflow-visible" style={{ paddingBottom: '1.5rem' }}>
           <span className="bg-gradient-to-r from-dark-navy via-anchor to-sky-blue bg-clip-text text-transparent block pb-2" style={{ display: 'block', paddingBottom: '0.5rem' }}>
-            Find Your Perfect
+            Find Your Mates
           </span>
           <span className="block bg-gradient-to-r from-sky-blue via-anchor to-accent bg-clip-text text-transparent pt-4 pb-4 overflow-visible" style={{ display: 'block', paddingTop: '1rem', paddingBottom: '1.5rem' }}>
-            Graduate Housing Match
+            Find Your Place
           </span>
         </h1>
         <p className="text-lg sm:text-xl text-dark-navy/80 max-w-2xl mx-auto leading-relaxed font-medium">
@@ -55,16 +55,17 @@ export default function ProductDescription() {
             </svg>
           </div>
           <div>
-            <h3 className="text-2xl font-bold text-dark-navy mb-3">Solving the Cold Start Problem</h3>
+            <h3 className="text-2xl font-bold text-dark-navy mb-3">Reduce the Stress, Match for Success</h3>
             <p className="text-dark-navy/80 leading-relaxed mb-3 text-lg">
-              The hardest part of launching is seeding the network. How do we get the first group of users 
-              active so the platform has value for others?
+              Graduate school is challenging enough without the added burden of housing uncertainty. Our intelligent 
+              matching system takes the guesswork out of finding your ideal living situation, connecting you with 
+              compatible housemates and verified housing options that fit your lifestyle and budget.
             </p>
             <p className="text-dark-navy/80 leading-relaxed text-lg">
-              We solve it by defining our <strong className="text-anchor font-bold">atomic network</strong>–the smallest 
-              group of users (students + housing supply) that creates real value and can grow on its own. 
-              For example, Georgetown Med students. We ensure optimal numbers for student groups and housing 
-              options to maintain a balanced ratio.
+              We use advanced algorithms to analyze compatibility factors like study habits, cleanliness preferences, 
+              social needs, and lifestyle patterns. This ensures you're matched with housemates who complement your 
+              graduate school journey, creating a supportive living environment that enhances your academic success 
+              rather than adding to your stress.
             </p>
           </div>
         </div>
