@@ -4,10 +4,10 @@ export default function ProductDescription() {
       <div className="text-center mb-12 sm:mb-16 overflow-visible">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-3 leading-[1.4] pb-6 overflow-visible" style={{ paddingBottom: '1.5rem' }}>
           <span className="bg-gradient-to-r from-dark-navy via-anchor to-sky-blue bg-clip-text text-transparent block pb-2" style={{ display: 'block', paddingBottom: '0.5rem' }}>
-            Find Your Mates
+            Find Your Mates.
           </span>
           <span className="block bg-gradient-to-r from-sky-blue via-anchor to-accent bg-clip-text text-transparent pt-4 pb-4 overflow-visible" style={{ display: 'block', paddingTop: '1rem', paddingBottom: '1.5rem' }}>
-            Find Your Place
+            Find Your Place.
           </span>
         </h1>
         <p className="text-lg sm:text-xl text-dark-navy/80 max-w-2xl mx-auto leading-relaxed font-medium">
