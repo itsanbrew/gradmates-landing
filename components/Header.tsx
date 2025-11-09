@@ -38,18 +38,6 @@ export default function Header() {
               Home
             </button>
             <button
-              onClick={() => scrollToSection('founder')}
-              className="text-dark-navy font-medium hover:text-accent transition-colors px-2 sm:px-3 py-2 rounded-lg hover:bg-orange/10 text-sm sm:text-base hidden sm:block"
-            >
-              About the Founder
-            </button>
-            <button
-              onClick={() => scrollToSection('founder')}
-              className="text-dark-navy font-medium hover:text-accent transition-colors px-2 py-2 rounded-lg hover:bg-orange/10 text-sm sm:hidden"
-            >
-              Founder
-            </button>
-            <button
               onClick={() => scrollToSection('waitlist')}
               className="bg-gradient-to-r from-anchor to-sky-blue text-white font-semibold px-3 sm:px-4 md:px-6 py-2 sm:py-2.5 rounded-lg hover:shadow-lg transition-all hover:scale-105 text-xs sm:text-sm md:text-base whitespace-nowrap"
             >

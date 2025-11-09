@@ -1,7 +1,6 @@
 import Header from '@/components/Header'
 import ProductDescription from '@/components/ProductDescription'
 import EmailSignup from '@/components/EmailSignup'
-import AboutTheFounder from '@/components/AboutTheFounder'
 
 export default function Home() {
   return (
@@ -10,7 +9,6 @@ export default function Home() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-24">
         <div className="max-w-5xl mx-auto space-y-16 sm:space-y-20 lg:space-y-24">
           <ProductDescription />
-          <AboutTheFounder />
           <EmailSignup />
         </div>
       </div>
