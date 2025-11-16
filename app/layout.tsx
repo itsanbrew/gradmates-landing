@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Gradmates - Find Your Perfect Graduate Housing Match',
-  description: 'AI-driven platform that intelligently matches graduate students with housemates and curates housing options.',
+  title: 'GradMates - Find Your People, Before You Find Your Place',
+  description: 'GradMates is a smarter, curated roommate-matching platform built just for grad students. No spam group chats. No endless scrolling. Just real humans you actually want to live with.',
 }
 
 export default function RootLayout({
@@ -17,4 +17,9 @@ export default function RootLayout({
     </html>
   )
 }
+
+
+
+
+
 

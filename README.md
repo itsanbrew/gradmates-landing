@@ -52,3 +52,8 @@ The email signup form is currently a frontend placeholder. To connect it to Airt
 - Orange: `#FD9E09`
 - Cool Grey: `#F5F6FA`
 
+
+
+
+
+

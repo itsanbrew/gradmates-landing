@@ -1,26 +1,27 @@
+import Script from 'next/script'
+
 export default function EmailSignup() {
   return (
-    <section id="waitlist" className="bg-gradient-to-br from-sky-blue/10 via-anchor/5 to-accent/10 rounded-3xl p-8 sm:p-12 shadow-xl border-2 border-sky-blue/20">
+    <section className="bg-cool-grey rounded-2xl p-8 sm:p-12 shadow-lg border border-sky-blue/20 max-w-2xl mx-auto">
       <div className="text-center mb-8">
-        <h2 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-anchor to-sky-blue bg-clip-text text-transparent mb-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-dark-navy mb-4">
           Join the Waitlist
         </h2>
-        <p className="text-dark-navy text-lg font-medium">
+        <p className="text-dark-navy/70 text-base sm:text-lg">
           Be among the first to experience smarter graduate housing matching
         </p>
       </div>
 
       <div className="max-w-2xl mx-auto">
-        <iframe 
-          className="airtable-embed w-full rounded-xl shadow-lg" 
-          src="https://airtable.com/embed/appNKC7rHbak5SdRF/pagaNq15J1WGBeuyb/form" 
-          frameBorder="0" 
-          width="100%" 
-          height="533" 
-          style={{ background: 'transparent', border: '1px solid #66B2FF' }}
-        ></iframe>
+        <div 
+          style={{ width: '100%', height: '500px' }} 
+          data-fillout-id="a9dV6NCnvFus" 
+          data-fillout-embed-type="standard" 
+          data-fillout-inherit-parameters=""
+          data-fillout-dynamic-resize=""
+        ></div>
+        <Script src="https://server.fillout.com/embed/v1/" strategy="afterInteractive" />
       </div>
     </section>
   )
 }
-
